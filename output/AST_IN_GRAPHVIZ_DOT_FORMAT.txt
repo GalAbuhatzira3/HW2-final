@@ -1,0 +1,60 @@
+digraph
+{
+graph [ordering = "out"]
+v28 [label="Function foo"];
+v28 -> v0;
+v28 -> v9;
+v28 -> v27;
+v0 [label="Type
+void"];
+v9 [label="ParamList"];
+v9 -> v8;
+v8 [label="Param y"];
+v8 -> v7;
+v7 [label="Type
+double"];
+v9 -> v5;
+v5 [label="Param b"];
+v5 -> v4;
+v4 [label="Type
+string"];
+v9 -> v2;
+v2 [label="Param x"];
+v2 -> v1;
+v1 [label="Type
+int"];
+v27 [label="Statements"];
+v10 [label="Type
+int"];
+v11 [label="INT(1)"];
+v13 [label="Assign"];
+v13 -> v10;
+v31 [label="Var a"];
+v13 -> v31;
+v13 -> v11;
+v27 -> v13;
+v14 [label="Type
+int"];
+v15 [label="INT(2)"];
+v17 [label="Assign"];
+v17 -> v14;
+v32 [label="Var b"];
+v17 -> v32;
+v17 -> v15;
+v27 -> v17;
+v18 [label="Var x"];
+v23 [label="Statements"];
+v19 [label="Type
+string"];
+v20 [label="String \"abc\""];
+v22 [label="Assign"];
+v22 -> v19;
+v33 [label="Var a"];
+v22 -> v33;
+v22 -> v20;
+v23 -> v22;
+v24 [label="IF"];
+v24 -> v18;
+v24 -> v23;
+v27 -> v24;
+}

@@ -1,0 +1,7 @@
+void foo(int x, string b, double y) {
+ int a := 1;
+ int b := 2;
+ if (x) {
+ string a := "abc";
+ }
+ }
